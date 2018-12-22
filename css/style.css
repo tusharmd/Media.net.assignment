@@ -4,9 +4,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 95vh;
+  height: 102vh;
 }
-p {
+p, h5, h4 {
 	margin-bottom: 0;
 }
 
@@ -28,4 +28,43 @@ body {
     background-color: #ffce44;
 	color: #552610;
 	border: none;
+}
+.featureBox {
+	border-radius: 1.2rem;
+	background: #088697;
+	padding: 3rem 1rem;
+	color: #f9f9f9;
+	height: 17rem;
+}
+.featureBox h5 {
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.featureBox p
+{
+	font-size: 1.2rem;
+}
+.featureBox i {
+	font-size:2rem;
+	color: #3cddc4;
+}
+.contactSection , .contactSection2 {
+	background: linear-gradient(to right, #33c3af 0%, #00ffcc 100%);
+}
+.contactSection h5 {
+	font-size: 2rem;
+	color:#f9f9f9;
+}
+.contactSection h6 {
+	font-size: 1.6rem;
+	color: #0f7278;
+}
+.contactSection p
+{
+	color:#117376;
+}
+.contactSection2 {
+	border-top: 1px solid; 
 }
