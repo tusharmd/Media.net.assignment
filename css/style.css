@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'Signika';
+  src: url('../fonts/Signika/Signika-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Berkshire';
+  src: url('../fonts/Berkshire_Swash/BerkshireSwash-Regular.ttf');
+}
+
+p, h5, h4 {
+	margin-bottom: 0;
+}
+
+body {
+	font-family: 'Signika';
+	font-size: 16px;
+}
+
 .bgImg {
  background: #33c3af url("../images/bgcat.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -6,15 +25,85 @@
   background-size: cover;
   height: 102vh;
 }
-p, h5, h4 {
-	margin-bottom: 0;
+
+.continueSection {
+	background-color: rgba(51, 195, 175,0.7);
+	margin-top: -27rem;
+}
+.continueSection .p1
+{
+	font-size: 2rem;
+	color:#d5f3e7;
+	font-family: Berkshire;
+}
+.continueSection .p2
+{
+	font-size: 1.3rem;
+	color: #6b716f
+}
+.continueSection .p3
+{
+	font-size:0.75rem;
+	color: #fff;
+}
+.continueSection .wrapper
+{
+	background-color: #edf9f5;
+	border-radius: 10px;
 }
 
-body {
-	font-family: 'Signika', sans-serif;
-	font-size: 16px;
+.petloverSection {
+	background-color: #edf9f5;
+}
+.petloverSection .p1 {
+	color:#468783;
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+.petloverSection .p2 {
+	font-size: 0.9rem;
+	color: #b8b7aa
 }
 
+.featuresSection {
+	background-color: #d5f3e9;
+}
+
+.featuresSection .featureBox {
+	border-radius: 1.2rem;
+	background: #088697;
+	padding: 3rem 1rem;
+	color: #f9f9f9;
+	height: 17rem;
+}
+.featuresSection .featureBox h5 {
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.featuresSection .featureBox p
+{
+	font-size: 1.2rem;
+}
+.featuresSection .featureBox i {
+	font-size:2rem;
+	color: #3cddc4;
+}
+
+
+
+
+.titlesH2 {
+	font-size: 4rem;
+	font-family: 'Berkshire';
+	color: #ffffff;
+}
+.titlesH4 {
+	font-size: 3rem;
+	font-family: 'Berkshire';
+	color: #01425e;
+}
 
 .continueBtn {
 	background: #ffce44;
@@ -29,42 +118,73 @@ body {
 	color: #552610;
 	border: none;
 }
-.featureBox {
-	border-radius: 1.2rem;
-	background: #088697;
-	padding: 3rem 1rem;
-	color: #f9f9f9;
-	height: 17rem;
+.continueBtn:focus {
+	box-shadow: none;
 }
-.featureBox h5 {
-	padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 1.4rem;
-    font-weight: bold;
-}
-.featureBox p
-{
-	font-size: 1.2rem;
-}
-.featureBox i {
-	font-size:2rem;
-	color: #3cddc4;
-}
+
 .contactSection , .contactSection2 {
 	background: linear-gradient(to right, #33c3af 0%, #00ffcc 100%);
 }
 .contactSection h5 {
-	font-size: 2rem;
+	font-size: 3rem;
+	font-family: 'Berkshire';
 	color:#f9f9f9;
 }
 .contactSection h6 {
-	font-size: 1.6rem;
+	font-size: 2rem;
 	color: #0f7278;
+	font-weight: 600;
 }
 .contactSection p
 {
 	color:#117376;
+	font-size: 1.2rem;
 }
 .contactSection2 {
 	border-top: 1px solid; 
 }
+.contactSection2 a.active {
+	background: transparent !important;
+	color: #147e82 !important;  
+}
+.contactSection2 ul li a {
+	background: transparent;	
+	color: #147e82; 
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.contactSection2 a.active:after {
+ content: "";
+ position: relative;
+ margin-left: -15px;
+ left: -23px;
+ bottom: -23px;
+ border-left: 15px solid transparent;
+ border-right: 15px solid transparent;
+ border-bottom: 15px solid white;
+}
+
+
+.footerSection {
+	background: #edf9f5;
+}
+.uninstallForm { 
+	max-width: 45%;
+	margin: auto;
+	text-align: center;
+	font-size: 1.5rem
+}
+.uninstallForm h6 { color: #117478; font-size: 2rem; }
+.uninstallForm p { color: #969f9c; font-size: 1.2rem; }
+.uninstallForm input {background: #d5f3e9; height: 48px; border-radius:10px; }
+.uninstallForm input[type="button"] {background: #088697; height: 48px; border-radius:10px; color: #fff; }
+
+
+
+
+
+
+
+
+
